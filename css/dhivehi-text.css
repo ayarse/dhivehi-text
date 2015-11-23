@@ -1,0 +1,26 @@
+@font-face {
+    font-family:'MV Faseyha';
+    src:url('../fonts/mv_faseyha.otf')  format('opentype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'MV Waheed';
+    src:url('../fonts/mv_waheed.otf')  format('opentype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+.dhivehi-text {
+    font-family: "MV Faseyha", "MV Waheed", Faruma, "mv iyyu nala", "mv elaaf normal";
+    line-height: 1.8;
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.dhivehi-text h1, .dhivehi-text h2, .dhivehi-text h3, .dhivehi-text h4, .dhivehi-text h5, .dhivehi-text h6 {
+    font-family:"MV Waheed", "MV Faseyha", Faruma, "mv iyyu nala", "mv elaaf normal";
+    font-weight: normal;
+    line-height: 1.6;
+}

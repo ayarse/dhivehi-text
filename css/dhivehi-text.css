@@ -24,3 +24,9 @@
     font-weight: normal;
     line-height: 1.6;
 }
+
+i.mce-i-dhivehi::before {
+    content: "\780\781";
+    font-family: 'MV Waheed';
+    vertical-align: top;
+}
